@@ -40,7 +40,7 @@
     "category": "abstract",
     "title": "Nordic Mirage",
     "medium": "Acrylic on Canvas · 80 × 80 cm",
-    "year": 2023,
+    "year": 2021,
     "price": "30 000 SEK",
     "sold": false,
     "description": "Warm copper cuts through cool violets and blues, like distant sails drifting across Scandinavian water.",
@@ -52,7 +52,7 @@
     "category": "pop",
     "title": "Galactic Guardians",
     "medium": "Acrylic on Canvas · 70 × 100 cm",
-    "year": 2023,
+    "year": 2025,
     "price": "6 500 SEK",
     "sold": true,
     "description": "Playful figures from a galaxy far away rendered in bold lines and saturated colour, celebrating pure nostalgia.",
@@ -288,3 +288,4 @@
     "img": "images/IMG_0735.jpg"
   }
 ]
+
