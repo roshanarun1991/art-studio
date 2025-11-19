@@ -299,15 +299,22 @@
       margin-bottom: 1.3rem;
     }
 
+    /* Updated about-image styles to use your portrait */
     .about-image {
       width: 100%;
       height: 320px;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 3rem;
-      color: white;
+    }
+
+    .about-image .about-photo {
+      height: 100%;
+      width: auto;
+      max-width: 100%;
+      object-fit: cover;
+      border-radius: 16px;     /* change to 50% for a circular portrait */
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
     }
 
     /* Exhibitions Section */
@@ -603,43 +610,43 @@
 
     /* Responsive Design */
     @media (max-width: 768px) {
-  .nav-container {
-    flex-direction: column;
-    align-items: flex-start; /* or center if you prefer */
-    padding: 0 1.25rem;
-  }
+      .nav-container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 1.25rem;
+      }
 
-  .nav-menu {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin-top: 0.75rem;
-    padding: 0;
-  }
+      .nav-menu {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-top: 0.75rem;
+        padding: 0;
+      }
 
-  .hero h1 {
-    font-size: 1.05rem;
-  }
+      .hero h1 {
+        font-size: 1.05rem;
+      }
 
-  .about-container,
-  .contact-container {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
+      .about-container,
+      .contact-container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
 
-  .gallery-grid,
-  .exhibitions-grid {
-    grid-template-columns: 1fr;
-  }
+      .gallery-grid,
+      .exhibitions-grid {
+        grid-template-columns: 1fr;
+      }
 
-  .section-title {
-    font-size: 1rem;
-  }
+      .section-title {
+        font-size: 1rem;
+      }
 
-  .modal-content {
-    padding: 1.6rem;
-  }
-}
+      .modal-content {
+        padding: 1.6rem;
+      }
+    }
 
     /* Hidden class for category filtering (not strictly needed now but kept) */
     .hidden {
@@ -720,7 +727,8 @@
           </p>
         </div>
         <div class="about-image">
-          🎨
+          <!-- Your portrait here -->
+          <img src="roshan.jpg" alt="Roshan Arun" class="about-photo" />
         </div>
       </div>
     </section>
@@ -1241,6 +1249,3 @@
   </script>
 </body>
 </html>
-
-
-
