@@ -294,12 +294,13 @@
     "medium": "Acrylic on Canvas · 60 × 51 cm",
     "year": 2026,
     "price": "4 500 SEK",
-    "sold": false,
+    "sold": true,
     "description": "Artworks that brings out the Zen feeling .",
     "status": "Sold",
     "img": "images/IMG_0736.jpg"
   }
 ]
+
 
 
 
