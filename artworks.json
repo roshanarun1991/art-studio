@@ -286,8 +286,21 @@
     "description": "A panther emerges from lush green leaves and pastel light, its gaze calm but unblinking.",
     "status": "Available for Purchase",
     "img": "images/IMG_0735.jpg"
+  },
+  {
+    "id": "art-11",
+    "category": "modern",
+    "title": "Ink of Zen",
+    "medium": "Acrylic on Canvas · 60 × 51 cm",
+    "year": 2026,
+    "price": "4 500 SEK",
+    "sold": false,
+    "description": "Artworks that brings out the Zen feeling .",
+    "status": "Sold",
+    "img": "images/IMG_0736.jpg"
   }
 ]
+
 
 
 
